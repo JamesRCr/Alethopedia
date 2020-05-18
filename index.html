@@ -1,27 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>
-      " Page Title "
-    </title>
-  </head>
-  <body>
-    <header>
-      <p>Menagerie of the Vile</p>
-      <nav>
-        <ul>
-          <li><a href="/">Blog</a></li>
-          <li><a href="/about">About</a></li>
-        </ul>
-      </nav>
-    </header>
-    <h1>Title</h1>
-    <p class="post-date">Date</p>
-    <p> Some fucking text </p>
-    <footer>
-      <p> Footer </p>
-    </footer>
-  </body>
-</html>
+
+---
+title: Blog
+layout: default
+---
+
+{% for post in site.posts %}
+<article>
+  <div class="date">
+    {{ post.date | date: "%B %d, %Y" }}
+  </div>
+
+  <div class="detail">
+    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    <p>{{ post.excerpt }}</p>
+  </div>
+</article>
+{% endfor %}
