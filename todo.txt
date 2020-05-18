@@ -1,0 +1,6 @@
+- Basic html template
+- Add SASS
+- Add Mathjax
+- Build homepage
+- Build blog page
+- Build about page
