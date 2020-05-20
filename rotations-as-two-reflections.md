@@ -1,7 +1,7 @@
 ---
 description: >-
-  Here we can exploit the properties of geometric algebra to come up with a
-  method of rotating any vector.
+  Here we can exploit the properties of geometric algebra to rotate vectors via
+  reflections.
 ---
 
 # Rotations as Two Reflections
