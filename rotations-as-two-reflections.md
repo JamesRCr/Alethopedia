@@ -8,7 +8,7 @@ description: >-
 
 ## Introduction and Motivation
 
-Stuff
+Fuck it I'm writing this
 
 ## Geometric Algebra
 
