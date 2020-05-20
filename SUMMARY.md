@@ -1,5 +1,8 @@
 # Table of contents
 
 * [Home](README.md)
-* [Rotations as Two Reflections](rotations-as-two-reflections.md)
+
+## Math
+
+* [Rotations as Two Reflections](math/rotations-as-two-reflections.md)
 
