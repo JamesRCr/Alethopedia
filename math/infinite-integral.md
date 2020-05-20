@@ -10,7 +10,7 @@ $$
 \int \sqrt{x\sqrt[3]{x\sqrt[4]{x...}}}dx
 $$
 
-Oh jeez... this integral looks intimidating. A typical approach to solving any nested infinite function would be to just solve for the case $$y=f(y)$$. Unfortunately in this case, the integrand function changes the further it's nested. Thus we must start with some algebraic manipulation in order to turn it into a form we can work with. Notice how we can take the radicals and rewrite them as nested exponent.
+Oh jeez... this integral looks intimidating. A typical approach to solving any nested infinite function would be to just solve for the case $$y=f(y)$$. Unfortunately in this case, the integrand function changes the further it's nested. Thus we must start with some algebraic manipulation in order to turn it into a form we can work with. Notice how we can take the radicals and rewrite them as nested exponents.
 
 $$
 \Rightarrow\int \left(x\left(x\left(x...\right)^{\frac{1}{4}}\right)^{\frac{1}{3}}\right)^{\frac{1}{2}}dx

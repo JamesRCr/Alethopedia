@@ -4,8 +4,8 @@
 
 ## Math
 
-* [Rotations as Two Reflections](math/rotations-as-two-reflections.md)
 * [Infinite Integral](math/infinite-integral.md)
+* [Rotations as Two Reflections](math/rotations-as-two-reflections.md)
 
 ## Physics
 
